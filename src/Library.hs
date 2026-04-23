@@ -28,3 +28,6 @@ aumentoFijo = (+) 1000
 
 salarioFinal :: Number -> Char -> Number -> Number
 salarioFinal años cat = aumentoFijo . bonoPorCategoria cat . bonoPorAntiguedad años
+
+sePuedeAscender :: Number -> Number -> Number -> Bool
+sePuedeAscender años salario salarioTope = años > 3 && salario > salarioTope
