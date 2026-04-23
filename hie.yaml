@@ -1,0 +1,7 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "patternMachingYGuardas:lib"
+
+    - path: "./test"
+      component: "patternMachingYGuardas:test:patternMachingYGuardas-test"
